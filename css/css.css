@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-image: url("https://img.huankong.top/2021/05/16/997fac0f094e8.jpg");
+    /* 自己可以换成自己的图片，这里是我的图床链接 */
+}
+@media screen and (max-device-width:399px){
+    body{
+        background-image: url("https://img.huankong.top/2021/05/16/d070e55f7b2c7.jpg");
+    }
+    h1,h2{
+        color: rgb(88, 9, 214);
+    }
+    .body{
+        margin-top: 500px;
+        font-size: 50px;
+    }
+}
+.body{
+    position: relative;
+    text-align: center;
+    line-height: 100px;
+}
