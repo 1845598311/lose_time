@@ -28,3 +28,17 @@ body{
     text-align: center;
     line-height: 100px;
 }
+h1{
+	color: #FFC0CB;
+}
+h2{
+    background-image: linear-gradient(to right, red, orange, yellow, green, yellow, orange, red, orange, yellow, green, yellow, orange, red);      
+  /*chrome 私有样式，加前缀，显示背景图片*/
+  -webkit-background-clip: text;      
+  animation: move 5s infinite;      
+  /*颜色设为透明*/
+  color: transparent;      
+  /*宽度固定*/
+  width: 300px;
+	
+}
