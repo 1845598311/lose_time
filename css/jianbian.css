@@ -1,0 +1,25 @@
+*{
+            padding: 0;
+            margin: 0;
+            background-color: #414141;
+        }
+        /* 盒子显示居中 */
+        div{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+        span{
+            font-size: 72px;
+            background: linear-gradient(135deg,#14ffe9,#ffeb3b,#ff00e0);
+            /* 将背景颜色剪裁到文字上 */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            /* 设置动画效果,使背景色动起来 */
+            /* 设置动画时长可以更改渐变速度 */
+            animation: ff 0.9s linear infinite;
+        }
+        @keyframes ff{
+            to{filter: hue-rotate(360deg);}
+        }
